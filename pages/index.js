@@ -16,6 +16,11 @@ export default function Home({facts}) {
           <li><Link href='/posts/ssg-with-api-data'>SSG Page with data from beloved Cat Facts API</Link></li>
           <li><Link href='/posts/ssr-with-api-data'>SSR Page with data from beloved Cat Facts API</Link></li>
           <li><Link href='/posts/csr-with-api-data'>CSR Page with data from beloved Cat Facts API using SWR</Link></li>
+          <li>Dynamic Routes:</li>
+            <ul>
+              <li><Link href='/posts/1'>Route 1</Link></li>
+              <li><Link href='/posts/2'>Route 2</Link></li>
+            </ul>
         </ul>
       </section>
     </Layout>
